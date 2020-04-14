@@ -1,0 +1,56 @@
+.container{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav >a{
+    padding:10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: unset;
+    color: rgba(226,43,186);
+    text-align:inherit;
+}
+
+.header{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+    color: silver;
+    
+    
+}
+
+button{
+    text-align: inherit;
+    color: rgba(red, green, blue, alpha);
+    display: inherit;
+}
+
+h2{
+    text-align: center;
+    color:silver;
+}
+
+
+h2  >services{
+    display: grid;
+}
+
+*{
+    margin: 0 auto; padding: 10px;
+}
+
+section{
+    border: separate;
+    color: teal;
+}
